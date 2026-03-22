@@ -52,6 +52,20 @@ Founder review 的对象必须是：
 4. `Reviewable`
    - 有清晰的验收点和反馈问题
 
+## Acceptance Review
+
+Founder 参与产品过程的主要方式不是日常 requirements 讨论，而是 `Acceptance Review`。
+
+规则：
+
+1. 只有通过 Demo Gate 的版本，才允许进入 Founder 验收。
+2. Founder 的职责是：
+   - 判断是否“好到可以继续”
+   - 提出方向性质疑
+   - 明确哪些地方仍然“不够好”
+3. Founder 不负责现场补需求、拆任务或决定实现细节。
+4. 验收后的反馈由 `Compounding Engineering Lead` 和 `Chief of Staff` 分解给各部门处理。
+
 ## 当前阶段的解释
 
 由于当前还是 `pre-code`，所以本规则暂时作用于：

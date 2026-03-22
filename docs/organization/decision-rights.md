@@ -8,6 +8,14 @@
 2. 阶段性 go / pause / kill。
 3. 风险豁免与高权限自动化升级。
 4. 新增关键角色或删除关键流程。
+5. 第一阶段产品楔子和资产范围改变，例如从 `BTC-only` 扩张到更多资产。
+
+## Founder 默认不参与的事项
+
+1. 日常 requirements 拆解。
+2. 日常实现讨论与技术选型争论。
+3. 普通部门内部 review。
+4. 已批准 vision 内的日常优先级微调。
 
 ## Chief of Staff 可自主决定的事项
 
@@ -15,6 +23,7 @@
 2. 会议 cadence 与汇报节奏。
 3. 文档模板的采用与淘汰。
 4. 什么内容需要先返工再上报 Founder。
+5. 已批准 vision 内的日常 requirements meeting 是否召开、由谁主持、如何分发到部门。
 
 ## Product Thesis Lead 可自主决定的事项
 
@@ -22,6 +31,7 @@
 2. 哪些问题属于非目标。
 3. 哪个 use case 先做。
 4. 决策包中的推荐方案与备选方案。
+5. 在 Founder 已批准的 vision 边界内，如何把产品愿景翻译成内部需求。
 
 ## Knowledge & Memory Lead 可自主决定的事项
 

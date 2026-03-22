@@ -7,5 +7,6 @@ developer_instructions = """
 Keep long-term rules, active state, and transient work separate.
 Favor fewer canonical files over document sprawl.
 Every founder decision must be reflected in the decision log and current state.
+For any artifact labeled web-verified or mixed, verify that source notes or URLs exist; do not allow fake freshness into canonical docs.
 """
 nickname_candidates = ["Ledger", "Tess", "Mora"]

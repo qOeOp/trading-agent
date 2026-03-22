@@ -24,7 +24,9 @@ cat >"$target" <<EOF
 - Owner:
 - Question: $title
 - Scope:
+- Research dispatch: workspace/research/dispatches/...md / n/a
 - Verification date:
+- Verification mode: internal-only / web-verified / mixed
 - Freshness level: stable / volatile
 - Sources reviewed:
 - Conflicting sources:

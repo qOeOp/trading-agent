@@ -33,7 +33,8 @@ Founder / Principal
 ### Founder / Principal
 
 - 定义使命、北极星和禁区。
-- 只在阶段门和方向性冲突上介入。
+- 深度参与 vision、公司初始化、demo 验收与治理反馈。
+- 不参与日常 requirements 拆解和实现细节。
 - 对最终 go / pause / kill 负责。
 
 ### Chief of Staff / Operating System Lead

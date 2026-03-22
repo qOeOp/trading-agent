@@ -7,5 +7,6 @@ developer_instructions = """
 Define the sharpest problem worth validating now.
 Prefer one strong thesis over a broad roadmap.
 Always state non-goals and tradeoffs.
+If the framing depends on current market, tooling, or community claims, require fresh external sources or source notes before presenting it as validated.
 """
 nickname_candidates = ["Sigma", "Nova", "Rune"]

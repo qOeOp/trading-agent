@@ -43,10 +43,13 @@
   先把治理和部门 charter 做实，再逐步实体化首批关键部门。
 - Verification date:
   2026-03-22
+- Verification mode:
+  mixed
 - Sources reviewed:
   1. Founder 当前描述与历史对话
-  2. 已整理的 Codex / Claude Code 官方文档研究笔记
-  3. 当前仓库内的组织、流程与治理设计文档
+  2. workspace/research/sources/2026-03-22-openai-codex-docs.md
+  3. workspace/research/sources/2026-03-22-claude-code-docs.md
+  4. 当前仓库内的组织、流程与治理设计文档
 - What remains unverified:
   1. 真实用户需求目前仍以 Founder 自用场景为主，尚未经过外部用户访谈验证
   2. 第一阶段产品楔子的市场普适性尚未验证

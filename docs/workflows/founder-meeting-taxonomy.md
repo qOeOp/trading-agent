@@ -6,12 +6,13 @@
 
 是的，meeting 不止用来 retro 或治理改进。
 
-Founder 和公司之间至少存在 4 类正式会议：
+Founder 和公司之间至少存在 5 类正式会议：
 
 1. `Governance Meeting`
 2. `Vision Meeting`
-3. `Requirements Meeting`
-4. `Brainstorming Session`
+3. `Acceptance Review`
+4. `Requirements Meeting`
+5. `Brainstorming Session`
 
 如果把它们都混成一种 meeting，会产生两个问题：
 
@@ -74,7 +75,37 @@ Founder 和公司之间至少存在 4 类正式会议：
 - updated non-goals
 - decision package for Founder approval
 
-## 3. Requirements Meeting
+## 3. Acceptance Review
+
+目的：
+
+- 让 Founder 对 runnable demo 做正式验收
+- 收集方向性质疑和高标准反馈
+- 决定继续推进、返工还是暂停
+
+主持：
+
+- `Chief of Staff`
+
+支持角色：
+
+- `Risk & Quality Lead`
+- 对应 demo 的部门负责人
+- 必要时 `Compounding Engineering Lead`
+
+输入：
+
+- runnable demo
+- acceptance review brief
+- 已知边界与未做清单
+
+输出：
+
+- acceptance decision
+- founder feedback
+- follow-up directions
+
+## 4. Requirements Meeting
 
 目的：
 
@@ -103,7 +134,13 @@ Founder 和公司之间至少存在 4 类正式会议：
 - non-goals
 - department tasking
 
-## 4. Brainstorming Session
+关键边界：
+
+1. requirements meeting 默认是内部会议，不默认需要 Founder 在场
+2. 只有当需求讨论触碰已批准 vision 边界时，才升级给 Founder
+3. Founder 通常只看到 requirements 的结果，而不是讨论过程
+
+## 5. Brainstorming Session
 
 目的：
 
@@ -135,8 +172,9 @@ Founder 和公司之间至少存在 4 类正式会议：
 
 1. 如果主题是“公司现在运行得怎么样”，默认 `governance`
 2. 如果主题是“我们这个产品到底要做什么”，默认 `vision`
-3. 如果主题是“这一版该做哪些功能”，默认 `requirements`
-4. 如果主题是“先发散看看”，默认 `brainstorming`
+3. 如果主题是“这版 demo 能不能给 Founder 验收”，默认 `acceptance`
+4. 如果主题是“这一版该做哪些功能”，默认 `requirements`
+5. 如果主题是“先发散看看”，默认 `brainstorming`
 
 ## 与产品 vision 的关系
 
@@ -158,7 +196,18 @@ Founder 和公司之间至少存在 4 类正式会议：
 
 ## Freshness Gate
 
-不是所有 meeting 都需要先做 web search，但凡涉及以下 `volatile` 主题，就不能只靠现有记忆达成正式结论：
+不是所有 meeting 都需要先做 web search，但凡涉及以下 `volatile` 主题，就不能只靠现有记忆达成正式结论。
+
+这条规则同样适用于：
+
+1. Founder-facing meeting
+2. department 内部讨论
+3. agent-to-agent brainstorming
+4. internal requirements / review / decision session
+
+凡是正式结论，不区分是不是 Founder 在场。
+
+涉及以下 `volatile` 主题时，都必须遵守同样的 freshness discipline：
 
 1. 市场资讯、实时价格、宏观新闻
 2. Claude Code / Codex / MCP / tools 的最新能力
@@ -170,10 +219,21 @@ Founder 和公司之间至少存在 4 类正式会议：
 1. 在形成正式结论前，先做 freshness check
 2. 输出中必须标明：
    - `Verification date`
+   - `Verification mode`
    - `Sources reviewed`
    - `What remains unverified`
 3. 如果只是 brainstorming，可以先发散，但所有外部事实性主张都必须打上 `needs freshness check`
 4. 没过 freshness gate 的外部判断，不能直接升级为正式决策或流程变更
+
+`Verification mode` 只允许三种值：
+
+1. `internal-only`
+   - 只基于 Founder 输入、已有内部文档、历史决策
+   - 不能伪装成已经做过 web verification
+2. `web-verified`
+   - 结论主要基于当轮 web / 官方来源验证
+3. `mixed`
+   - 同时基于内部判断和外部最新来源
 
 ## Hard Truth
 

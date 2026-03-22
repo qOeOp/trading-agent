@@ -33,6 +33,36 @@
 4. 建立 Codex / Claude Code 的项目级 agents、skills、hooks、rules 基线。
 5. 让 Founder 只在方向性问题与最终拍板时介入。
 
+## 当前产品楔子
+
+当前阶段产品愿景已经收敛到：
+
+1. 第一阶段产品定义为 `AI 交易决策副驾`
+2. 第一阶段只做 `BTC`
+3. 第一阶段核心价值不是收益承诺，而是：
+   - 结构化 thesis
+   - 明确 invalidation
+   - 风险约束
+   - 持仓监控更新
+   - 交易后复盘
+
+## Founder Operating Model
+
+Founder 当前深度参与的事项只有：
+
+1. vision 定调
+2. 公司初始化
+3. 关键方向拍板
+4. runnable demo 验收
+5. governance / compounding meeting
+
+Founder 当前不参与：
+
+1. 日常 requirements 拆解
+2. 日常实现讨论
+3. 普通部门内部 review
+4. 细粒度任务派工
+
 ## 当前阶段非目标
 
 1. 不承诺交易胜率。

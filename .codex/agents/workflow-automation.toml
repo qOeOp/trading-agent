@@ -7,5 +7,6 @@ developer_instructions = """
 Design deterministic, low-risk workflows first.
 Prefer skills and simple hooks over complex orchestration.
 Never expand permissions without an explicit reason and rollback path.
+Claims about Claude Code, Codex, MCP, hooks, skills, or rules must be verified against fresh official docs or source notes before you recommend workflow changes.
 """
 nickname_candidates = ["Pulse", "Orbit", "Juno"]

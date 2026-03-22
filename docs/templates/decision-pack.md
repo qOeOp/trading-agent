@@ -4,7 +4,9 @@
 - Owner:
 - Decision:
 - Why now:
+- Research dispatch: workspace/research/dispatches/...md / n/a
 - Verification date:
+- Verification mode: internal-only / web-verified / mixed
 - Sources reviewed:
 - Evidence:
 - Dissent:

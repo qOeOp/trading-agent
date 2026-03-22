@@ -1,5 +1,5 @@
 ---
-description: 发起 Founder meeting。支持 governance / vision / requirements / brainstorming 四类会议。
+description: 发起 Founder-facing meeting。支持 governance / vision / acceptance / requirements / brainstorming 五类会议。
 ---
 
 请按以下顺序工作：
@@ -8,11 +8,13 @@ description: 发起 Founder meeting。支持 governance / vision / requirements 
 2. 先识别当前 meeting type：
    - governance
    - vision
+   - acceptance
    - requirements
    - brainstorming
 3. 根据 meeting type 决定主持角色、输入材料和模板：
    - governance -> [../../docs/workflows/founder-governance-meeting-loop.md](../../docs/workflows/founder-governance-meeting-loop.md) + [../../docs/templates/governance-meeting-brief.md](../../docs/templates/governance-meeting-brief.md)
    - vision -> [../../docs/templates/vision-meeting-brief.md](../../docs/templates/vision-meeting-brief.md)
+   - acceptance -> [../../docs/templates/acceptance-review-brief.md](../../docs/templates/acceptance-review-brief.md)
    - requirements -> [../../docs/templates/requirements-meeting-brief.md](../../docs/templates/requirements-meeting-brief.md)
    - brainstorming -> [../../docs/templates/brainstorming-notes.md](../../docs/templates/brainstorming-notes.md)
 4. 判断当前 meeting 是否涉及 `volatile` 外部信息：

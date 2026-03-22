@@ -19,3 +19,8 @@ model: sonnet
 - 先识别 canonical docs
 - 再识别运行态 docs
 - 最后决定是否需要归档或新建
+
+你对 freshness 的职责：
+
+1. 任何标记为 `web-verified` 或 `mixed` 的 artifact，都必须有可追溯的 source notes 或 URL。
+2. 不允许伪 freshness 进入 canonical docs。

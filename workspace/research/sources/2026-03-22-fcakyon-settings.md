@@ -2,6 +2,8 @@
 
 - Date: 2026-03-22
 - Source: fcakyon/claude-codex-settings
+- URL: https://github.com/fcakyon/claude-codex-settings
 - Type: community repo
+- Accessed date: 2026-03-22
 - Trust level: medium
 - Notes: Cross-tool repository layout with CLAUDE, AGENTS, .claude, .codex, plugins and MCP.

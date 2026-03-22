@@ -90,6 +90,8 @@
 - Claude Code 相关问题优先查官方文档。
 - 社区实践只作为补充，不得覆盖官方约束。
 - 需要最新信息时必须显式标注日期。
+- 对外部世界的 volatile 主题，默认先走 web / 官方文档 / source notes，而不是只靠内部知识库。
+- 只有纯内部治理、Founder vision lock、本地仓库问题，才允许 `Verification mode: internal-only`。
 
 ## 自动化边界
 

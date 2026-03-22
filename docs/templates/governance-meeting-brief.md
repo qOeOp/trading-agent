@@ -8,6 +8,7 @@
 - Process Frictions:
 - Improvement Proposals:
 - Verification date:
+- Verification mode: internal-only / web-verified / mixed
 - Sources reviewed:
 - What remains unverified:
 - Decisions Needed From Founder:
