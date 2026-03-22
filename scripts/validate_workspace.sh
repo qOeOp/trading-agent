@@ -77,7 +77,20 @@ check_exec "scripts/new_intake.sh"
 check_exec "scripts/new_daily_report.sh"
 check_exec "scripts/new_retro.sh"
 check_exec "scripts/new_worktree.sh"
+check_exec "scripts/enable_git_hooks.sh"
+check_exec "scripts/validate_freshness_gate.sh"
 check_exec "scripts/validate_workspace.sh"
+check_exec ".githooks/pre-commit"
+check_exec ".githooks/pre-push"
+check_file ".github/workflows/governance-gates.yml"
+
+if git rev-parse --git-dir >/dev/null 2>&1; then
+  hooks_path=$(git config --get core.hooksPath || true)
+  if [ "$hooks_path" != ".githooks" ]; then
+    ok=0
+    [ "$quiet" = "--quiet" ] || echo "git core.hooksPath is not set to .githooks"
+  fi
+fi
 
 if [ "$ok" -eq 1 ]; then
   [ "$quiet" = "--quiet" ] || echo "workspace baseline: ok"

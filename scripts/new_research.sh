@@ -24,7 +24,11 @@ cat >"$target" <<EOF
 - Owner:
 - Question: $title
 - Scope:
-- Sources:
+- Verification date:
+- Freshness level: stable / volatile
+- Sources reviewed:
+- Conflicting sources:
+- Earliest-source check:
 - Strongest evidence:
 - Strongest counter-evidence:
 - Unknowns:

@@ -41,6 +41,16 @@
   组织上：
   先以公司级 monorepo + 部门原子边界 + worktree-first 并行方式建设。
   先把治理和部门 charter 做实，再逐步实体化首批关键部门。
+- Verification date:
+  2026-03-22
+- Sources reviewed:
+  1. Founder 当前描述与历史对话
+  2. 已整理的 Codex / Claude Code 官方文档研究笔记
+  3. 当前仓库内的组织、流程与治理设计文档
+- What remains unverified:
+  1. 真实用户需求目前仍以 Founder 自用场景为主，尚未经过外部用户访谈验证
+  2. 第一阶段产品楔子的市场普适性尚未验证
+  3. “AI-native trading company operating system” 作为长期品牌定位，目前仍是内部战略假设
 - Decisions needed from Founder:
   1. 长期身份是否接受定义为 “AI-native trading company operating system”？
   2. 第一阶段产品楔子是否接受定义为 “AI 交易决策副驾”，而不是完整自动投研团队？

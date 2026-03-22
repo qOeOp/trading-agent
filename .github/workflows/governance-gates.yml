@@ -1,0 +1,28 @@
+name: Governance Gates
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  governance-gates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Make scripts executable
+        run: |
+          chmod +x scripts/*.sh
+          chmod +x .githooks/pre-commit .githooks/pre-push
+
+      - name: Enable project hooks
+        run: ./scripts/enable_git_hooks.sh
+
+      - name: Validate workspace baseline
+        run: ./scripts/validate_workspace.sh
+
+      - name: Validate freshness gate
+        run: ./scripts/validate_freshness_gate.sh

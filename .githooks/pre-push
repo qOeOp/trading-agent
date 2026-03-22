@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+
+repo_root=$(git rev-parse --show-toplevel)
+cd "$repo_root"
+
+./scripts/validate_workspace.sh --quiet
+./scripts/validate_freshness_gate.sh
