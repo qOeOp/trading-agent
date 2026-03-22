@@ -93,6 +93,7 @@
 ./scripts/validate_workspace.sh
 ./scripts/enable_git_hooks.sh
 ./scripts/validate_freshness_gate.sh --staged
+./scripts/new_company_digest.sh 2026-03-22
 ./scripts/new_decision.sh company "mvp-scope"
 ./scripts/new_research.sh market-intelligence "btc-source-quality"
 ./scripts/new_checkpoint.sh "weekly-sync"
